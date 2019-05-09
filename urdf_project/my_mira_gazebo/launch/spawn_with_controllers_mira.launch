@@ -1,0 +1,7 @@
+<launch>
+
+    <include file="$(find my_mira_gazebo)/launch/spawn_mira.launch"/> 
+
+    <include file="$(find my_mira_gazebo)/launch/mira_control.launch"/>
+
+</launch>
